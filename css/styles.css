@@ -71,6 +71,7 @@ address {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .header-logo {
     padding: 24px 0;
     margin-right: 76px;
@@ -154,7 +155,10 @@ address {
 }
 
 .hero-btn {
-    display: inline-block;
+    display: block;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     min-width: 169px;
     padding: 16px 32px;
     font-weight: 500;
@@ -257,6 +261,7 @@ address {
      display: flex;
      flex-wrap: wrap;
      gap: 24px;
+     row-gap: 48px;
  }
 
  .portfolio-item {
@@ -305,7 +310,11 @@ address {
      color: #f4f4fd;
  }
 
+ .footer-logo {
+     display: inline-block;
+     margin-bottom: 16px;
+ }
+ 
  .footer-text {
-     letter-spacing: 0.02em;
-     color: #f4f4fd;
+     max-width: 264px;
  }
