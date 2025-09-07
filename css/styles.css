@@ -194,6 +194,18 @@ address {
     color: #434455;
 }
 
+.team-title,
+.portfolio-title {
+    margin-bottom: 72px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
 .team {
     background-color: #f4f4fd;
 }
@@ -272,17 +284,25 @@ address {
  }
 
  .page-footer {
-     padding-top: 100px;
-     padding-bottom: 100px;
+     padding: 100px 0;
      background-color: #2e2f42;
-     color: #f4f4fd;
+    color: #f4f4fd;
+ }
+
+ .page-footer .container {
+     display: block;
  }
 
  .footer-container {
      display: flex;
      flex-direction: column;
+     align-items: flex-start;
      gap: 16px;
      max-width: 264px;
+ }
+
+ .footer-logo .logo-part {
+     color: #f4f4fd;
  }
 
  .footer-text {
